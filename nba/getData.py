@@ -1,11 +1,3 @@
-import pandas as pd
-
-file = pd.ExcelFile("NBA.xlsx")
-
-data = pd.read_excel(file, usecols="C:BC", skiprows=[0, 1, 2, 3, 4, 5])
-print(data)
-
-
 class Team:
 
     def __init__(self, team_name):
@@ -79,3 +71,5 @@ class Stats:
         self.ft_percent_pg = 0
         self.pf_tkn_pg = 0
         self.pf_pg = 0
+
+
