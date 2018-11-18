@@ -11,13 +11,6 @@ def initialize_data(dataframe):
             teams_dic[entry[0]] = Team(entry[0])
             teams_dic[entry[0]].add_player(entry)
 
-    teams_dic["Heatcheck Gaming"].players["Majes7ic"].pos = "PG"
-    teams_dic["Heatcheck Gaming"].players["HyperIsPro"].pos = "SG"
-    teams_dic["Heatcheck Gaming"].players["Jalen03303"].pos = "SG"
-    teams_dic["Heatcheck Gaming"].players["Sharpshooterlos"].pos = "SF"
-    teams_dic["Heatcheck Gaming"].players["24KDropOff"].pos = "PF"
-    teams_dic["Heatcheck Gaming"].players["Hotshot"].pos = "C"
-
     teams_dic["76ers GC"].players["ZDS"].pos = "PG"
     teams_dic["76ers GC"].players["Radiant"].pos = "PG"
     teams_dic["76ers GC"].players["Newdini33"].pos = "SG"
@@ -52,5 +45,26 @@ def initialize_data(dataframe):
     teams_dic["Celtics Crossover Gaming"].players["MelEast"].pos = "SF"
     teams_dic["Celtics Crossover Gaming"].players["Speedbrook"].pos = "PF"
     teams_dic["Celtics Crossover Gaming"].players["Ars0nalX"].pos = "C"
+
+    teams_dic["Grizz Gaming"].players["Winner_Stayz_On"].pos = "PG"
+    teams_dic["Grizz Gaming"].players["Ayethreat"].pos = "SG"
+    teams_dic["Grizz Gaming"].players["DDouble2K"].pos = "SF"
+    teams_dic["Grizz Gaming"].players["UniversalPhenom"].pos = "SF"
+    teams_dic["Grizz Gaming"].players["PhenomVV"].pos = "PF"
+    teams_dic["Grizz Gaming"].players["AuthenticAfrican"].pos = "C"
+
+    teams_dic["Heatcheck Gaming"].players["Majes7ic"].pos = "PG"
+    teams_dic["Heatcheck Gaming"].players["HyperIsPro"].pos = "SG"
+    teams_dic["Heatcheck Gaming"].players["Jalen03303"].pos = "SG"
+    teams_dic["Heatcheck Gaming"].players["Sharpshooterlos"].pos = "SF"
+    teams_dic["Heatcheck Gaming"].players["24KDropOff"].pos = "PF"
+    teams_dic["Heatcheck Gaming"].players["Hotshot"].pos = "C"
+
+    teams_dic["Jazz Gaming"].players["YeahICompete"].pos = "PG"
+    teams_dic["Jazz Gaming"].players["TifeWorld"].pos = "SG"
+    teams_dic["Jazz Gaming"].players["Smoove"].pos = "SF"
+    teams_dic["Jazz Gaming"].players["Deedz"].pos = "PF"
+    teams_dic["Jazz Gaming"].players["Stambreezy"].pos = "PF"
+    teams_dic["Jazz Gaming"].players["MrSlaughter01"].pos = "C"
 
     return teams_dic
