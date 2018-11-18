@@ -21,7 +21,7 @@ class Player:
         self.play_off = None
         self.mid_session1 = None
         self.mid_session2 = None
-        self.cur_pos = ""
+        self.pos = ""
 
     def add_stats(self, entry):
         if entry[2] == 'Tip Off':
